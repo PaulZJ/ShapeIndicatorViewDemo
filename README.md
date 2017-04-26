@@ -6,4 +6,4 @@
 
 ## 效果图
 
-![效果图.gif](http://upload-images.jianshu.io/upload_images/1895495-2de6f967c3405ce5.gif?imageMogr2/auto-orient/strip)
+![效果图.gif](https://github.com/PaulZJ/ShapeIndicatorViewDemo/tree/master/imgs/demo.gif)
