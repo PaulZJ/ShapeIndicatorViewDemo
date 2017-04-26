@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/app_base_left_margin"
+                android:paddingRight="@dimen/app_base_right_margin">
+    <ImageView
+        android:id="@+id/book_cover"
+        android:layout_width="80dp"
+        android:layout_height="110dp"
+        android:src="@mipmap/default_book_cover"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:scaleType="centerCrop"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/book_cover"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/book_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="词汇名称"
+            android:textColor="@color/app_content_main_color"
+            android:layout_marginTop="15dp"/>
+        <TextView
+            android:id="@+id/book_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textSize="12sp"
+            android:text="单词量:999"
+            android:textColor="@color/app_content_normal_color"/>
+        <TextView
+            android:id="@+id/book_origin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textSize="13sp"
+            android:text="来源于Demo"
+            android:textColor="@color/app_content_normal_color"/>
+    </LinearLayout>
+
+</RelativeLayout>

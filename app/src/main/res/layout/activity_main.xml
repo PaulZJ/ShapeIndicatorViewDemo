@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/app_white_color"
+              android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        style="@style/ToolbarStyle"
+        app:theme="?attr/actionBarTheme"
+        android:paddingBottom="2dp"
+        android:background="#f0f0f0">
+
+        <include layout="@layout/toolbar_layout"/>
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <com.test.view.ShapeIndicatorView
+                android:id="@+id/custom_indicator"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="4dp"
+                app:mode="img_mode"
+                app:strokecolor="@color/app_brand_color"
+                app:roundraduis="40"
+                app:img="@mipmap/bg_indicator"
+                />
+            <android.support.design.widget.TabLayout
+                android:id="@+id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:tabIndicatorColor="@color/app_brand_color"
+                app:tabIndicatorHeight="1dp"
+                app:tabSelectedTextColor="@color/app_brand_color"
+                app:tabTextColor="@color/app_content_normal_color"
+                />
+
+        </FrameLayout>
+        <View
+            style="@style/basic_settings_item_divider"/>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>

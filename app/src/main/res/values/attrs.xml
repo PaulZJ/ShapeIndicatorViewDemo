@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ShapeIndicatorView">
+        <attr name="strokecolor" format="color"/>
+        <attr name="roundraduis" format="integer"/>
+        <attr name="img" format="reference"/>
+        <attr name="mode" format="enum">
+            <enum name="img_mode" value="0"/>
+            <enum name="draw_mode" value="1"/>
+        </attr>
+    </declare-styleable>
+</resources>

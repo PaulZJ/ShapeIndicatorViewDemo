@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="app_white_color">#ffffff</color>
+    <color name="app_brand_color">#ffb740</color>
+    <color name="app_content_normal_color">#90949e</color>
+    <color name="app_gray_color">#e5e9ef</color>
+    <color name="app_content_main_color">#484e5e</color>
+
+</resources>
